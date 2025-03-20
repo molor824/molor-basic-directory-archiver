@@ -59,7 +59,7 @@ fn main() {
             Some(p) => PathBuf::from(p),
             None => {
                 let mut clone = path.clone();
-                clone.set_extension("mbds");
+                clone.set_extension("mbda");
                 clone
             }
         };
